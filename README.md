@@ -75,10 +75,19 @@ The analysis identified the following areas for further investigation:
 - Review packaging and product-handling controls.
 - Monitor customer complaints and resolution experiences.
 
-## Project Report
+## Project Deliverables
+
+**1. Final Project Report**
 
 [View the Complete Project Report (PDF)](./NL_Getir%20(1).pdf)
 
+**2. Excel Analysis Workbook**
+
+[View / Download Excel Workbook](./NL_Getir.copy.xlsx)
+
+**3. Interactive Tableau Dashboard**
+
+[Explore the Getir Returns Dashboard](https://public.tableau.com/views/NL_Getir_Tableau/OverallReturnsOverview)
 ## Tools & Skills Demonstrated
 
 - Microsoft Excel
