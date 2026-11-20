@@ -1,42 +1,35 @@
 # Getir – Reducing Avoidable Returns
 
-**Business Analysis | NextLeap Graduation Project | November 2026**
+**Business Analyst Portfolio Project | NextLeap Graduation Project**
+
+A Business Analysis project exploring avoidable product returns in Getir's quick-commerce operations using Microsoft Excel and Tableau.
+
+The analysis examines return performance, identifies potentially avoidable returns, highlights patterns across product categories, regions and customer segments, and recommends operational areas for further investigation.
 
 ## Project Overview
 
-This project analyses avoidable product returns in Getir's quick-commerce operations across product categories, regions and customer segments.
-
-The objective is to understand where avoidable returns are concentrated, identify frequently recorded return reasons and recommend operational areas for further investigation.
-
-The project combines quantitative data analysis, customer research, business requirements documentation and interactive Tableau reporting.
-
-## Business Problem
-
-Product returns can create additional operational costs and customer inconvenience.
-
-This project examines recorded return patterns to identify areas potentially associated with expiry dates, incorrect items, packaging defects and product handling.
+| Detail | Description |
+|---|---|
+| Project | Getir – Reducing Avoidable Returns |
+| Dataset | NextLeap-provided project dataset |
+| Records analysed | 30,271 order-detail records |
+| Unit of analysis | Individual product line within an order |
+| Tools | Microsoft Excel, Tableau |
+| Analysis | Return patterns, KPI analysis, customer research and business requirements |
+| Deliverables | Final Report, Excel Analysis and Tableau Dashboard |
 
 ## Project Objectives
 
-- Measure the overall avoidable return rate and associated product value.
-- Identify return patterns across product categories and regions.
+- Analyse overall product return performance.
+- Measure avoidable return rates and associated product value.
+- Identify patterns across product categories and regions.
 - Compare customer segments.
 - Identify the most frequently recorded avoidable return reasons.
-- Explore areas requiring further operational investigation.
-- Develop practical recommendations while considering customer experience.
-
-## Tools Used
-
-- **Microsoft Excel:** Data preparation, KPI calculations and exploratory analysis.
-- **Tableau Public:** Interactive dashboard development and data visualisation.
-- **Business Analysis:** Business requirements, project scoping and recommendations.
-- **Customer Research:** Customer experience analysis and thematic analysis.
+- Recommend operational areas for further investigation.
 
 ## Key Findings
 
-The analysis covered 30,271 order-detail records.
-
-| KPI | Result |
+| Metric | Result |
 |---|---:|
 | Total order-detail records | 30,271 |
 | Returned rows | 1,424 |
@@ -45,75 +38,63 @@ The analysis covered 30,271 order-detail records.
 | Avoidable Share of Returns | 79.00% |
 | Estimated Avoidable Return Value | 26,962.47 |
 
-### Category Analysis
+### Important Insights
 
-- Household Cleaning recorded the highest avoidable return rate at 5.51%.
-- Meat & Poultry contributed the highest estimated avoidable return value of 5,980.51.
+- **Product Category:** Household Cleaning recorded the highest avoidable return rate at 5.51%.
+- **Regional Analysis:** Mediterranean recorded the highest regional avoidable return rate at 4.50%.
+- **Return Reasons:** Expired Date was the most frequently recorded avoidable return reason, with 156 rows.
+- **Estimated Value:** Meat & Poultry contributed the highest estimated avoidable return value of 5,980.51.
 
-### Regional Analysis
+## Dashboard Preview
 
-- Mediterranean recorded the highest regional avoidable return rate at 4.50%.
-- Marmara contributed the highest avoidable return count and estimated value.
+### Tableau Dashboard
 
-### Return Reason Analysis
+![Getir Tableau Dashboard](Tableau_Dashboard.png)
 
-- Expired Date was the most frequently recorded avoidable return reason, with 156 rows.
-- Wrong Item Sent followed with 114 rows.
-
-## Tableau Dashboard
-
-Explore the interactive dashboard:
+**Explore the interactive dashboard:**
 
 [View Getir – Overall Returns Overview on Tableau Public](https://public.tableau.com:9443/views/NL_Getir_Tableau/OverallReturnsOverview?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
+## Methodology
+
+1. Reviewed and prepared the supplied order, product, customer and return data.
+2. Examined data quality and established the unit of analysis.
+3. Defined KPIs and calculated avoidable return metrics.
+4. Performed exploratory analysis across product categories, regions and customer segments.
+5. Conducted supplementary customer research and documented business requirements.
+6. Developed Tableau visualisations and identified business recommendations.
+
 ## Business Recommendations
 
-The analysis identified six areas for further investigation:
+The analysis identified the following areas for further investigation:
 
-1. Review expiry-date checks, stock rotation and inventory controls.
-2. Investigate order-picking verification and item accuracy.
-3. Prioritise category-level quality reviews.
-4. Examine regional return patterns while considering record volumes.
-5. Review packaging and product-handling controls.
-6. Monitor customer complaints and resolution experiences.
+- Review expiry-date checks, stock rotation and inventory controls.
+- Investigate order-picking verification and item accuracy.
+- Prioritise category-level quality reviews.
+- Examine regional return patterns while considering record volumes.
+- Review packaging and product-handling controls.
+- Monitor customer complaints and resolution experiences.
 
-## Project Deliverables
+## Project Report
 
-- Final project report.
-- Business Requirements Document (BRD).
-- Excel-based data analysis and KPI calculations.
-- Interactive Tableau dashboard.
-- Customer research and thematic analysis.
-- Business recommendations.
+[View the Complete Project Report (PDF)](./NL_Getir%20(1).pdf)
 
-## Methodology and Limitations
+## Tools & Skills Demonstrated
 
-The unit of analysis is an order-detail row representing an individual product line within an order.
+- Microsoft Excel
+- Data Preparation and Quality Checks
+- KPI Calculation and Analysis
+- Exploratory Data Analysis
+- Business Requirements Documentation (BRD)
+- Customer Research and Thematic Analysis
+- Tableau Dashboard Development
+- Data Visualisation
+- Business Insights and Recommendations
 
-A returned row is classified as avoidable when its recorded return reason is other than Customer Changed Mind.
+## Data Disclaimer
 
-Avoidable Return Value is calculated using:
+This is an independent graduation portfolio project based on the dataset supplied for the NextLeap programme. It is not an analysis of Getir's internal company data, and the findings should not be interpreted as official Getir business results.
 
-`UnitPrice × Quantity × (1 − DiscountRate)`
-
-This represents estimated product value, not confirmed refunds, audited losses or net financial impact.
+Avoidable returns are classified according to the project's defined return-reason rule. The estimated return value represents associated product value, not confirmed refunds, audited losses or net financial impact.
 
 The analysis is descriptive and does not establish the operational root cause of individual returns.
-
-Customer research involved three participant accounts from Zepto, BigBasket and Blinkit. It provides supplementary industry context rather than direct evidence of Getir's operations. Two participant accounts were adapted rather than verbatim transcripts.
-
-The source-level data quality checklist was not fully completed in the working workbook. Therefore, the project does not claim that all source-level validation checks have passed.
-
-## Conclusion
-
-The project establishes a baseline for understanding avoidable returns and identifies variations across product categories, regions and recorded return reasons.
-
-The findings provide a starting point for investigating inventory management, order-picking accuracy, product quality and customer experience.
-
-The recommendations focus on potential operational improvements without assuming that stricter customer return policies are the appropriate solution.
-
----
-
-**Programme:** NextLeap Graduation Project  
-**Project:** Getir – Reducing Avoidable Returns Across Product Categories, Regions and Customer Segments  
-**Report Date:** 5 November 2026
