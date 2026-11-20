@@ -55,10 +55,6 @@ The analysis examines return performance, identifies potentially avoidable retur
 
 [View Getir – Overall Returns Overview on Tableau Public](https://public.tableau.com:9443/views/NL_Getir_Tableau/OverallReturnsOverview?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
-**Explore the interactive dashboard:**
-
-[View Getir – Overall Returns Overview on Tableau Public](https://public.tableau.com:9443/views/NL_Getir_Tableau/OverallReturnsOverview?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
-
 ## Methodology
 
 1. Reviewed and prepared the supplied order, product, customer and return data.
