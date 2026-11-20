@@ -47,13 +47,13 @@ The analysis examines return performance, identifies potentially avoidable retur
 
 ## Dashboard Preview
 
-### Tableau Dashboard
+### Tableau – Overall Returns Overview
 
-![Getir Tableau Dashboard](Tableau_Dashboard.png)
+![Getir Tableau Dashboard](./Tableau_Dashboard.png)
 
 **Explore the interactive dashboard:**
 
-[View Getir – Overall Returns Overview on Tableau Public](https://public.tableau.com:9443/views/NL_Getir_Tableau/OverallReturnsOverview?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+[View Dashboard on Tableau Public](https://public.tableau.com/views/NL_Getir_Tableau/OverallReturnsOverview)
 
 ## Methodology
 
